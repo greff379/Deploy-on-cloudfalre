@@ -539,7 +539,7 @@ export function ImagePreviewer(props: {
           </div>
 
           <div>
-            <div className={styles["main-title"]}>GPT-ChatBot.ru</div>
+            <div className={styles["main-title"]}>GPT-CHATBOT</div>
             <div className={styles["sub-title"]}>
               gpt-chatbot.ru
             </div>
