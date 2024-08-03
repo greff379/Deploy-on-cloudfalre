@@ -50,7 +50,7 @@ export const AllLangs = Object.keys(ALL_LANGS) as Lang[];
 
 export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   cn: "简体中文",
-  en: "English",
+  ru: "English",
   pt: "Português",
   tw: "繁體中文",
   jp: "日本語",
@@ -62,7 +62,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
   tr: "Türkçe",
   de: "Deutsch",
   vi: "Tiếng Việt",
-  ru: "Русский",
+  en: "Русский",
   cs: "Čeština",
   no: "Nynorsk",
   ar: "العربية",
@@ -71,7 +71,7 @@ export const ALL_LANG_OPTIONS: Record<Lang, string> = {
 };
 
 const LANG_KEY = "lang";
-const DEFAULT_LANG = "ru";
+const DEFAULT_LANG = "en";
 
 const fallbackLang = en;
 const targetLang = ALL_LANGS[getLang()] as LocaleType;
