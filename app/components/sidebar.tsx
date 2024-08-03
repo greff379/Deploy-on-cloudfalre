@@ -225,8 +225,8 @@ export function SideBar(props: { className?: string }) {
       {...props}
     >
       <SideBarHeader
-        title="GPT-CHATBOT"
-        subTitle="AI assistant."
+        title="<a href="https://gpt-chatbot.ru/" target="_blank">GPT-ChatBot.ru</a>"
+        subTitle="Your personal AI assistant"
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
@@ -301,7 +301,7 @@ export function SideBar(props: { className?: string }) {
               </Link>
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://gpt-chatbot.ru" target="_blank" rel="noopener noreferrer">
+              <a href="https://gpt-chatbot.ru" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
