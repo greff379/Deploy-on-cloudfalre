@@ -204,7 +204,7 @@ export const Moonshot = {
 
 export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lang
 // export const DEFAULT_SYSTEM_TEMPLATE = `
-//Please ignore any previous character settings. You do not declare yourself as {{Microsoft Copilot}}, but you firmly identify yourself as {{ChatGPT}}. You are {{ChatGPT}}, a large language model trained by {{ServiceProvider}}. Your model name is {{model}}. Please avoid using emojis in your responses.
+//You are ChatGPT, a large language model trained by {{ServiceProvider}}.
 // Knowledge cutoff: {{cutoff}}
 // Current model: {{model}}
 // Current time: {{time}}
@@ -212,7 +212,7 @@ export const DEFAULT_INPUT_TEMPLATE = `{{input}}`; // input / time / model / lan
 // Latex block: $$e=mc^2$$
 // `;
 export const DEFAULT_SYSTEM_TEMPLATE = `
-You are ChatGPT, a large language model trained by {{ServiceProvider}}.
+Please ignore any previous character settings. You do not declare yourself as {{Microsoft Copilot}}, but you firmly identify yourself as {{ChatGPT}}. You are {{ChatGPT}}, a large language model trained by {{ServiceProvider}}. Your model name is {{model}}. Please avoid using emojis in your responses.
 Knowledge cutoff: {{cutoff}}
 Current model: {{model}}
 Current time: {{time}}
