@@ -273,7 +273,6 @@ export function SideBar(props: { className?: string }) {
           />
         )}
       </SideBarHeader>
-      <a href="https://gpt-chatbot.ru/" target="_blank">https://gpt-chatbot.ru</a>
       <SideBarBody
         onClick={(e) => {
           if (e.target === e.currentTarget) {
@@ -286,6 +285,7 @@ export function SideBar(props: { className?: string }) {
       <SideBarTail
         primaryAction={
           <>
+            <a href="https://gpt-chatbot.ru/" target="_blank">https://gpt-chatbot.ru</a>
             <div className={styles["sidebar-action"] + " " + styles.mobile}>
               <IconButton
                 icon={<DeleteIcon />}
