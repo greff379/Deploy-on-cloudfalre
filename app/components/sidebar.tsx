@@ -227,7 +227,6 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title="GPT-ChatBot.ru"
         subTitle="Your personal AI assistant"
-        <a href="https://gpt-chatbot.ru/" target="_blank">https://gpt-chatbot.ru</a>
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
@@ -274,6 +273,7 @@ export function SideBar(props: { className?: string }) {
           />
         )}
       </SideBarHeader>
+      <a href="https://gpt-chatbot.ru/" target="_blank">https://gpt-chatbot.ru</a>
       <SideBarBody
         onClick={(e) => {
           if (e.target === e.currentTarget) {
