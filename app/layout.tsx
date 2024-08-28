@@ -12,11 +12,11 @@ const serverConfig = getServerSideConfig();
 export const metadata: Metadata = {
   title: "GPT-ChatBot.ru",
   description: "Your personal Chat GPT on GPT-ChatBot.ru",
-  link:"<a href="https://gpt-chatbot.ru/">https://gpt-chatbot.ru/</a>",
   appleWebApp: {
     title: "GPT-ChatBot.ru",
     statusBarStyle: "default",
   },
+  <a href="https://gpt-chatbot.ru/">https://gpt-chatbot.ru</a>
 };
 
 export const viewport: Viewport = {
