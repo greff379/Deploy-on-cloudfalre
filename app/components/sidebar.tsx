@@ -285,7 +285,6 @@ export function SideBar(props: { className?: string }) {
       <SideBarTail
         primaryAction={
           <>
-            <a href="https://gpt-chatbot.ru/" target="_blank">https://gpt-chatbot.ru</a>
             <div className={styles["sidebar-action"] + " " + styles.mobile}>
               <IconButton
                 icon={<DeleteIcon />}
