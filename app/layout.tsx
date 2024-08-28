@@ -16,7 +16,6 @@ export const metadata: Metadata = {
     title: "GPT-ChatBot.ru",
     statusBarStyle: "default",
   },
-  <a href="https://gpt-chatbot.ru/">https://gpt-chatbot.ru</a>
 };
 
 export const viewport: Viewport = {
