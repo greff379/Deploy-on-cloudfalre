@@ -43,7 +43,6 @@ export default function RootLayout({
         />
         <link rel="manifest" href="/site.webmanifest"></link>
         <script src="/serviceWorkerRegister.js" defer></script>
-        <script src="https://cdn-rtb.sape.ru/rtb-b/js/057/2/149057.js" type="text/javascript" async></script>
       </head>
       <body>
         {children}
