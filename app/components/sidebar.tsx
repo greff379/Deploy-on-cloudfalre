@@ -230,6 +230,7 @@ export function SideBar(props: { className?: string }) {
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
+          <div id="SRTB_903313"></div>
           <IconButton
             icon={<MaskIcon />}
             text={shouldNarrow ? undefined : Locale.Mask.Name}
