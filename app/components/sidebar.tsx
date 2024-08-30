@@ -173,7 +173,7 @@ export function SideBarHeader(props: {
       <div className={styles["sidebar-header"]} data-tauri-drag-region>
         <div className={styles["sidebar-title-container"]}>
           <div className={styles["sidebar-title"]} data-tauri-drag-region>
-            {title}
+            <a href="https://gpt-chatbot.ru/" target="_blank">GPT-ChatBot.ru</a>
           </div>
           <div className={styles["sidebar-sub-title"]}>{subTitle}</div>
         </div>
@@ -226,7 +226,7 @@ export function SideBar(props: { className?: string }) {
     >
       <SideBarHeader
         title="GPT-ChatBot.ru"
-        subTitle="Your personal AI assistant"
+        subTitle="Ваш личный помощник чат GPT"
         logo={<ChatGptIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
@@ -301,7 +301,7 @@ export function SideBar(props: { className?: string }) {
               </Link>
             </div>
             <div className={styles["sidebar-action"]}>
-              <a href="https://gpt-chatbot.ru" target="_blank">
+              <a href="https://gpt-chatbot.ru/" target="_blank">
                 <IconButton icon={<GithubIcon />} shadow />
               </a>
             </div>
